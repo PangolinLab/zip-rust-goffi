@@ -1,0 +1,12 @@
+[package]
+name = "zip"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "zip"
+crate-type = ["cdylib"]
+
+[dependencies]
+zip = "0.6"
+libc = "0.2"
